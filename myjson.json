@@ -1,0 +1,58 @@
+{
+    "status": "ok",
+    "totalResults": 10782,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "CleanTechnica"
+            },
+            "author": "Steve Hanley",
+            "title": "Tesla Supercharger Proposal Could Benefit Biden Infrastructure Plan",
+            "description": "Under a new proposal, the Tesla Supercharger network in the US could be opened to drivers of all electric cars.",
+            "url": "https://cleantechnica.com/2022/03/03/tesla-supercharger-proposal-could-benefit-biden-infrastructure-plan/",
+            "urlToImage": "https://cleantechnica.com/files/2021/02/Tesla-Model-3-Model-S-Psychadelic-Supercharging-Superchargers-Florida-CleanTechnica-Watermark.jpg",
+            "publishedAt": "2022-03-03T18:16:25Z",
+            "content": "The Biden administration wants to spend $7.5 billion to construct a more robust EV charging network for electric car drivers in the United States. The Tesla Supercharger system is by far the largest … [+6738 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "VOA News"
+            },
+            "author": "Подкасти",
+            "title": "Як Ілон Маск та світові ІТ-компанії допомагають Україні та як можна підключитись до Starlink?",
+            "description": "Ілон Маск у Twitter повідомив, що SpaceX допомагає Україні відновити інтернет-зв'язок: \"Український цивільний інтернет переживає дивні перебої - напевно, погана погода? - тож SpaceX допомагає полагодити це\".\n\nТаким чином мільярдер і засновник Tesla, SpaceX і …",
+            "url": "https://ukrainian.voanews.com/a/mask-ukraiina-starlink/6468427.html",
+            "urlToImage": "https://gdb.voanews.com/01bd0000-0aff-0242-a770-08d9fd2abc88_w1200_r1.jpg",
+            "publishedAt": "2022-03-03T18:14:45Z",
+            "content": "Twitter , SpaceX -': \" - , ? - SpaceX \".\r\n Tesla, SpaceX Starlink , \"\" Starlink , - \" \" , \" \".\r\n StarLink, .\r\n Twitter . : \"Starlink . \".\r\n : \" , SpaceX, SpaceXStarlink, ! Starlink , !\"\r\n . , Starlin… [+891 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Slashdot.org"
+            },
+            "author": "feedfeeder",
+            "title": "Musk invites UAW union to hold vote at Tesla California factory - Reuters",
+            "description": "Musk invites UAW union to hold vote at Tesla California factoryReuters Elon Musk challenges the UAW to unionize TeslaCNN Elon Musk challenges UAW to hold a union vote at Tesla's California factoryEngadget Tesla’s Elon Musk invites UAW to hold a union vote “at…",
+            "url": "https://slashdot.org/firehose.pl?op=view&amp;id=159429465",
+            "urlToImage": null,
+            "publishedAt": "2022-03-03T18:12:56Z",
+            "content": "The Fine Print: The following comments are owned by whoever posted them. We are not responsible for them in any way."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Business Wire"
+            },
+            "author": null,
+            "title": "DSP Concepts Launches TWS Toolkit Powered by Audio Weaver",
+            "description": "SANTA CLARA, Calif.--(BUSINESS WIRE)--DSP Concepts launches TWS toolkit powered by Audio Weaver: Includes tech from industry-leading partners and rapid prototyping for audio features",
+            "url": "https://www.businesswire.com/news/home/20220303005308/en/DSP-Concepts-Launches-TWS-Toolkit-Powered-by-Audio-Weaver",
+            "urlToImage": "https://mms.businesswire.com/media/20220303005308/en/1378193/23/TWS_1.jpg",
+            "publishedAt": "2022-03-03T18:10:16Z",
+            "content": "SANTA CLARA, Calif.--(BUSINESS WIRE)--DSP Concepts, the Audio of Things category leader and the creator of the Audio Weaver® development platform, announces the availability of its highly anticipated… [+3585 chars]"
+        }        
+    ]
+}
