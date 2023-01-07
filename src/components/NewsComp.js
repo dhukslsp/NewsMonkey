@@ -5,7 +5,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 export default class NewsComp extends Component {
   //prev
 
-  //This part is the articles part
+  //This part is the articles part     
   myartcicles = [];
   constructor(props) {
     super(props);
