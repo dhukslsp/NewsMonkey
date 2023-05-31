@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import NewsItem from './NewsItem'
 import Spinner from './Spinner';
 import InfiniteScroll from "react-infinite-scroll-component";
+const proxyUrl = "https://cors-anywhere.herokuapp.com/"
 export default class NewsComp extends Component {
   //prev
 
@@ -19,7 +20,7 @@ export default class NewsComp extends Component {
 
   async componentDidMount() {
     this.setState({ loading: true })
-    let myfetch = `https://newsapi.org/v2/top-headlines?&country=${this.props.country}&category=${this.props.catogory}&page=${this.state.page}&pagesize=5&apiKey=${this.props.apike}`;
+    let myfetch = `${proxyUrl}https://newsapi.org/v2/top-headlines?&country=${this.props.country}&category=${this.props.catogory}&page=${this.state.page}&pagesize=5&apiKey=${this.props.apike}`;
     let another = await fetch(myfetch);
     let parsedata = await another.json();
     this.setState({ articles: parsedata.articles, loading: false })
@@ -28,7 +29,7 @@ export default class NewsComp extends Component {
     // a fake async api call like which sends
     // 20 more records in 1.5 secs
     this.setState({page: this.state.page + 1});
-    let myfetch = `https://newsapi.org/v2/top-headlines?&country=${this.props.country}&category=${this.props.catogory}&page=${this.state.page}&pagesize=5&apiKey=${this.props.apike}`;
+    let myfetch = `${proxyUrl}https://newsapi.org/v2/top-headlines?&country=${this.props.country}&category=${this.props.catogory}&page=${this.state.page}&pagesize=5&apiKey=${this.props.apike}`;
     let another = await fetch(myfetch);
     let parsedata = await another.json();
     this.setState({ articles: this.state.articles.concat(parsedata.articles)})
